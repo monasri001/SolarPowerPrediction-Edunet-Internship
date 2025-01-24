@@ -1,4 +1,4 @@
-# Solar Power Prediction Using Linear Regression
+# Solar Power Output Prediction Using Linear Regression
 
 ## Project Title: **Solar Power Prediction Using Linear Regression**
 

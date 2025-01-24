@@ -41,10 +41,15 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 ## How to Run:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/solar-power-prediction.git
+   git clone https://github.com/yourusername/solar-power-prediction.git](https://github.com/monasri001/SolarPowerPrediction-Edunet-Internship.git)
 2. Install the required libraries:
    ```bash
    pip install -r requirements.txt
-3. Run the Python script:
+3. Open the Jupyter Notebook or vs code:
    ```bash
-   python solar_power_prediction.py
+   jupyter notebook
+4. Navigate to the preprocessind&modelling.ipynb file and open it.
+5. Run the cells in the notebook.
+
+
+You can follow these steps for running the project in Jupyter Notebook. Let me know if you need further adjustments!

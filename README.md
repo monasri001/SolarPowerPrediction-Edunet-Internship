@@ -40,7 +40,7 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 ## How to Run:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/solar-power-prediction.git](https://github.com/monasri001/SolarPowerPrediction-Edunet-Internship.git)
+   git clone https://github.com/monasri001/SolarPowerPrediction-Edunet-Internship.git
 2. Install the required libraries:
    ```bash
    pip install -r requirements.txt

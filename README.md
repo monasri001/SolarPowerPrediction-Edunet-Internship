@@ -15,7 +15,7 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 4. **Model Development**: Use linear regression to build a predictive model based on the processed data.
 5. **Evaluation**: Evaluate the model’s performance using metrics like RMSE (Root Mean Square Error) and R-squared.
 
-## Week 1 of Internship Done:
+## **Week 1 of Internship Done:**
 
 ### 1. **Importing Necessary Libraries**:
    In this step, essential libraries like `pandas`, `numpy`, `matplotlib`, `seaborn`, and `scikit-learn` are imported to facilitate data manipulation, visualization, and model building.
@@ -35,8 +35,51 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 ### 6. **Standardization and Normalization**:
    The features are standardized and normalized to ensure that the data is on the same scale before applying the linear regression model, improving the model’s efficiency and accuracy.
 
----
+## **Week 2 of Internship Done:**
+In Week 2, I performed Exploratory Data Analysis (EDA) to explore and understand the dataset for solar power prediction. The analysis was structured into Univariate, Bivariate, and Multivariate categories.
 
+### **Univariate Analysis**
+1. Histogram & KDE:
+      Temperature: Normally distributed, peaking at moderate temperatures.
+      Humidity: Right-skewed, showing dominance of high humidity levels.
+      Wind Speed: Right-skewed, with frequent low speeds and occasional high speeds.
+      Cloud Cover: Multimodal, reflecting different weather conditions.
+      Generated Power: Slightly right-skewed, indicating frequent low outputs.
+2. Box Plot: Visualized outliers and distribution of power generation.
+3. Pie Chart: Displayed the proportions of cloud cover, wind speed, and power generation.
+
+### Bivariate Analysis
+1. Scatter Plots:
+      Temperature vs. Power: Moderate positive correlation.
+      Humidity vs. Power: Negative correlation, as high humidity suggests clouds.
+      Wind Speed vs. Power: Slight positive correlation, higher wind speeds indicate clearer skies.
+      Cloud Cover vs. Power: Strong negative correlation.
+      Radiation vs. Power: Strong positive correlation.
+2. Box Plots: Analyzed cloud cover and wind speed impacts on power generation.
+3. Correlation Heatmap:
+   Positive Correlations:
+      Shortwave Radiation (~0.9).
+      Temperature (~0.6).
+   Negative Correlations:
+      Cloud Cover (~-0.7).
+      Humidity (~-0.6).
+
+### Multivariate Analysis
+1. Pair Plot: Visualized relationships between generated power and other key features.
+2. 3D Scatter Plot: Highlighted that power generation strongly depends on radiation, regardless of temperature.
+3. Contour Plot: Mapped relationships among azimuth, zenith, and power.
+
+### **Key Insights**
+Key Drivers:
+Shortwave Radiation is the strongest influencer for power generation.
+Negative Factors:
+Cloud Cover and Humidity reduce power output.
+Secondary Factors:
+Temperature and Wind Speed enhance efficiency but are less impactful.
+Model Focus:
+Prioritize shortwave radiation and cloud cover in prediction models.
+
+---
 ## How to Run:
 1. Clone the repository:
    ```bash

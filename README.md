@@ -40,29 +40,29 @@ In Week 2, I performed Exploratory Data Analysis (EDA) to explore and understand
 
 ### **Univariate Analysis**
 1. Histogram & KDE:
-      Temperature: Normally distributed, peaking at moderate temperatures.
-      Humidity: Right-skewed, showing dominance of high humidity levels.
-      Wind Speed: Right-skewed, with frequent low speeds and occasional high speeds.
-      Cloud Cover: Multimodal, reflecting different weather conditions.
-      Generated Power: Slightly right-skewed, indicating frequent low outputs.
+      a. Temperature: Normally distributed, peaking at moderate temperatures.
+      b. Humidity: Right-skewed, showing dominance of high humidity levels.
+      c. Wind Speed: Right-skewed, with frequent low speeds and occasional high speeds.
+      d. Cloud Cover: Multimodal, reflecting different weather conditions.
+      e. Generated Power: Slightly right-skewed, indicating frequent low outputs.
 2. Box Plot: Visualized outliers and distribution of power generation.
 3. Pie Chart: Displayed the proportions of cloud cover, wind speed, and power generation.
 
 ### Bivariate Analysis
 1. Scatter Plots:
-      Temperature vs. Power: Moderate positive correlation.
-      Humidity vs. Power: Negative correlation, as high humidity suggests clouds.
-      Wind Speed vs. Power: Slight positive correlation, higher wind speeds indicate clearer skies.
-      Cloud Cover vs. Power: Strong negative correlation.
-      Radiation vs. Power: Strong positive correlation.
+      a. Temperature vs. Power: Moderate positive correlation.
+      b. Humidity vs. Power: Negative correlation, as high humidity suggests clouds.
+      c. Wind Speed vs. Power: Slight positive correlation, higher wind speeds indicate clearer skies.
+      d. Cloud Cover vs. Power: Strong negative correlation.
+      e. Radiation vs. Power: Strong positive correlation.
 2. Box Plots: Analyzed cloud cover and wind speed impacts on power generation.
 3. Correlation Heatmap:
-   Positive Correlations:
-      Shortwave Radiation (~0.9).
-      Temperature (~0.6).
-   Negative Correlations:
-      Cloud Cover (~-0.7).
-      Humidity (~-0.6).
+   a. Positive Correlations:
+      a. Shortwave Radiation (~0.9).
+      b. Temperature (~0.6).
+   b. Negative Correlations:
+      a. Cloud Cover (~-0.7).
+      b. Humidity (~-0.6).
 
 ### Multivariate Analysis
 1. Pair Plot: Visualized relationships between generated power and other key features.

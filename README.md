@@ -15,7 +15,7 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 4. **Model Development**: Use linear regression to build a predictive model based on the processed data.
 5. **Evaluation**: Evaluate the model’s performance using metrics like RMSE (Root Mean Square Error) and R-squared.
 
-## **Week 1 of Internship Done:**
+## **Week 1 of Internship Done: Data Preprocessing**
 
 ### 1. **Importing Necessary Libraries**:
    In this step, essential libraries like `pandas`, `numpy`, `matplotlib`, `seaborn`, and `scikit-learn` are imported to facilitate data manipulation, visualization, and model building.
@@ -35,7 +35,7 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 ### 6. **Standardization and Normalization**:
    The features are standardized and normalized to ensure that the data is on the same scale before applying the linear regression model, improving the model’s efficiency and accuracy.
 
-## **Week 2 of Internship Done:**
+## **Week 2 of Internship Done: Exploratory Data Analusis**
 In Week 2, I performed Exploratory Data Analysis (EDA) to explore and understand the dataset for solar power prediction. The analysis was structured into Univariate, Bivariate, and Multivariate categories.
 
 ### **Univariate Analysis**
@@ -70,14 +70,10 @@ In Week 2, I performed Exploratory Data Analysis (EDA) to explore and understand
 3. Contour Plot: Mapped relationships among azimuth, zenith, and power.
 
 ### **Key Insights**
-Key Drivers:
-Shortwave Radiation is the strongest influencer for power generation.
-Negative Factors:
-Cloud Cover and Humidity reduce power output.
-Secondary Factors:
-Temperature and Wind Speed enhance efficiency but are less impactful.
-Model Focus:
-Prioritize shortwave radiation and cloud cover in prediction models.
+1. Key Drivers: Shortwave Radiation is the strongest influencer for power generation.
+2. Negative Factors: Cloud Cover and Humidity reduce power output.
+3. Secondary Factors: Temperature and Wind Speed enhance efficiency but are less impactful.
+4. Model Focus: Prioritize shortwave radiation and cloud cover in prediction models.
 
 ---
 ## How to Run:

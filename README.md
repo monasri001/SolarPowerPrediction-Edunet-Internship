@@ -35,7 +35,7 @@ This project aligns with the goal of promoting sustainable energy sources by acc
 ### 6. **Standardization and Normalization**:
    The features are standardized and normalized to ensure that the data is on the same scale before applying the linear regression model, improving the model’s efficiency and accuracy.
 
-## **Week 2 of Internship Done: Exploratory Data Analusis**
+## **Week 2 of Internship Done: Exploratory Data Analysis**
 In Week 2, I performed Exploratory Data Analysis (EDA) to explore and understand the dataset for solar power prediction. The analysis was structured into Univariate, Bivariate, and Multivariate categories.
 
 ### **Univariate Analysis**
@@ -58,11 +58,11 @@ In Week 2, I performed Exploratory Data Analysis (EDA) to explore and understand
 2. Box Plots: Analyzed cloud cover and wind speed impacts on power generation.
 3. Correlation Heatmap:
    Positive Correlations:
-      Shortwave Radiation (~0.9),
-      Temperature (~0.6).
+   Shortwave Radiation (~0.9),
+   Temperature (~0.6).
    Negative Correlations:
-      Cloud Cover (~-0.7),
-      Humidity (~-0.6).
+   Cloud Cover (~-0.7),
+   Humidity (~-0.6).
 
 ### Multivariate Analysis
 1. Pair Plot: Visualized relationships between generated power and other key features.

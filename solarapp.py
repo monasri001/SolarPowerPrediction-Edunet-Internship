@@ -42,7 +42,7 @@ st.sidebar.title("Navigation")
 menu = st.sidebar.radio("Go to", ["Home", "Data Exploration", "Model Training", "Prediction"])
 
 # Load Dataset
-df = pd.read_csv("D:\\Solarpowerprediction\\Data\\processed_data.csv")
+df = pd.read_csv("processed_data.csv")
 df = df.dropna()
 
 # Split data into features (X) and target (y)
@@ -64,11 +64,11 @@ if menu == "Home":
     # Display Images
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("D:\\Solarpowerprediction\\assets\\solar.png", caption="Solar Panels & AI", use_column_width=True)
+        st.image("solar.png", caption="Solar Panels & AI", use_column_width=True)
     with col2:
-        st.image("D:\\Solarpowerprediction\\assets\\energyeficiency.png", caption="Smart Grid Optimization", use_column_width=True)
+        st.image("energyeficiency.png", caption="Smart Grid Optimization", use_column_width=True)
     with col3:
-        st.image("D:\\Solarpowerprediction\\assets\\ai.png", caption="AI in Energy Forecasting", use_column_width=True)
+        st.image("ai.png", caption="AI in Energy Forecasting", use_column_width=True)
 
     # Problem Statement
     st.header("📌 Problem Statement")
@@ -80,7 +80,7 @@ if menu == "Home":
         st.write("- **Grid Instability**: Without accurate predictions, grids struggle with demand-supply balance.")
 
     with col2:
-        st.image("D:\\Solarpowerprediction\\assets\\keychalenges.png", use_column_width=True)
+        st.image("keychalenges.png", use_column_width=True)
 
     # Sustainable Technology Goals
     st.header("📌 Sustainable Technology Goals")
@@ -98,13 +98,13 @@ if menu == "Home":
         st.write("- Real-time data visualization through an interactive Streamlit dashboard.")
         st.write("- Enhances energy grid planning & sustainable power distribution.")
     with col2:
-        st.image("D:\\Solarpowerprediction\\assets\\solution.png", use_column_width=True)
+        st.image("solution.png", use_column_width=True)
         
 
 
     # Tools & Technologies
     st.header("📌 Tools & Technologies")
-    st.image("D:\\Solarpowerprediction\\assets\\tools&tech.png",  use_column_width=True)
+    st.image("tools&tech.png",  use_column_width=True)
 
     # Methodology
     st.header("📌 Methodology")
@@ -115,7 +115,7 @@ if menu == "Home":
         "Outcome": ["Structured dataset for ML models.", "Improved model accuracy.", "Optimized solar power forecasting.", "Enhanced performance & accuracy.", "User-friendly, real-time forecasting."]
     })
     st.table(methodology_data)
-    st.image("D:\\Solarpowerprediction\\assets\\process.png", use_column_width=True)
+    st.image("process.png", use_column_width=True)
 
     # Approaches
     st.header("📌 Approaches")
